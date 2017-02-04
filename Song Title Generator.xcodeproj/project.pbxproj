@@ -138,7 +138,6 @@
 		7C2965831E45B2DC00ADBB8D /* Song Title Generator WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				7C2965A71E45B8AA00ADBB8D /* Resources */,
 				7C2965841E45B2DC00ADBB8D /* Interface.storyboard */,
 				7C2965871E45B2DC00ADBB8D /* Assets.xcassets */,
 				7C2965891E45B2DC00ADBB8D /* Info.plist */,
@@ -149,8 +148,9 @@
 		7C2965921E45B2DC00ADBB8D /* Song Title Generator WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				7C2965931E45B2DC00ADBB8D /* InterfaceController.swift */,
-				7C2965951E45B2DC00ADBB8D /* ExtensionDelegate.swift */,
+				7C2965AD1E45BDE900ADBB8D /* Delegates */,
+				7C2965AC1E45BDDE00ADBB8D /* Controllers */,
+				7C2965A71E45B8AA00ADBB8D /* Resources */,
 				7C2965971E45B2DC00ADBB8D /* Assets.xcassets */,
 				7C2965991E45B2DC00ADBB8D /* Info.plist */,
 			);
@@ -163,6 +163,23 @@
 				7C2965AA1E45B8EC00ADBB8D /* TitleDictionary.swift */,
 			);
 			name = Resources;
+			path = "../Song Title Generator WatchKit App";
+			sourceTree = "<group>";
+		};
+		7C2965AC1E45BDDE00ADBB8D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7C2965931E45B2DC00ADBB8D /* InterfaceController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7C2965AD1E45BDE900ADBB8D /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7C2965951E45B2DC00ADBB8D /* ExtensionDelegate.swift */,
+			);
+			name = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
