@@ -82,6 +82,8 @@
 		7C2965971E45B2DC00ADBB8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../Song Title Generator WatchKit Extension/Assets.xcassets"; sourceTree = "<group>"; };
 		7C2965991E45B2DC00ADBB8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Song Title Generator WatchKit Extension/Info.plist"; sourceTree = "<group>"; };
 		7C2965AA1E45B8EC00ADBB8D /* TitleDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleDictionary.swift; sourceTree = "<group>"; };
+		7C2965B41E45C38800ADBB8D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7C2965B71E45C50200ADBB8D /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,8 @@
 		7C2965641E45B2DB00ADBB8D = {
 			isa = PBXGroup;
 			children = (
+				7C2965B41E45C38800ADBB8D /* README.md */,
+				7C2965B71E45C50200ADBB8D /* COPYING */,
 				7C29656F1E45B2DB00ADBB8D /* Song Title Generator */,
 				7C2965831E45B2DC00ADBB8D /* Song Title Generator WatchKit App */,
 				7C2965921E45B2DC00ADBB8D /* Song Title Generator WatchKit Extension */,
