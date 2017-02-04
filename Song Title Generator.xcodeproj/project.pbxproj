@@ -302,15 +302,15 @@
 				TargetAttributes = {
 					7C29656C1E45B2DB00ADBB8D = {
 						CreatedOnToolsVersion = 8.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					7C29657E1E45B2DC00ADBB8D = {
 						CreatedOnToolsVersion = 8.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					7C29658D1E45B2DC00ADBB8D = {
 						CreatedOnToolsVersion = 8.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
