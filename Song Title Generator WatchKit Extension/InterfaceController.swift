@@ -36,6 +36,8 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBAction func GenerateButtonPressed() {
+        // A bit long winded but it works fine.
+        // Could easily put the random logic into its own class
         AdjectiveLabel.setText(TitleDictionary.adjectives[Int(arc4random_uniform(UInt32(TitleDictionary.adjectives.count)))])
         NounLabel.setText(TitleDictionary.nouns[Int(arc4random_uniform(UInt32(TitleDictionary.nouns.count)))])
     }

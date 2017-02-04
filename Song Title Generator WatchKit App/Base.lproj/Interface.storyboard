@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch38" orientation="portrait">
+    <device id="watch42" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,10 +14,17 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Song_Title_Generator_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label width="136" height="36" alignment="left" text="Song Title Generator" textAlignment="center" minimumScaleFactor="0.5" id="4yw-Hr-qEU"/>
-                        <label width="136" height="25" alignment="left" text="Blue" textAlignment="center" id="AAA-V3-3G7"/>
-                        <label width="136" height="25" alignment="left" text="Fruits" textAlignment="center" id="2EZ-Mv-b2J"/>
+                        <label width="136" height="36" alignment="left" text="Song Title Generator" textAlignment="center" minimumScaleFactor="0.5" id="4yw-Hr-qEU">
+                            <variation key="device=watch42mm" width="156"/>
+                        </label>
+                        <label width="136" height="25" alignment="left" text="Blue" textAlignment="center" id="AAA-V3-3G7">
+                            <variation key="device=watch42mm" height="40" width="155"/>
+                        </label>
+                        <label width="136" height="25" alignment="left" text="Fruits" textAlignment="center" id="2EZ-Mv-b2J">
+                            <variation key="device=watch42mm" height="40" width="156"/>
+                        </label>
                         <button width="1" height="52" alignment="left" title="Generate!" id="IBz-3i-uqU">
+                            <variation key="device=watch42mm" height="45"/>
                             <connections>
                                 <action selector="GenerateButtonPressed" destination="AgC-eL-Hgc" id="iym-hL-IT3"/>
                             </connections>
@@ -30,7 +37,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="115" y="85"/>
+            <point key="canvasLocation" x="114.20512820512822" y="85"/>
         </scene>
     </scenes>
 </document>
