@@ -12,10 +12,17 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    // The adjective portion of our song title
+    @IBOutlet var AdjectiveLabel: WKInterfaceLabel!
+    
+    // The noun portion of our song title
+    @IBOutlet var NounLabel: WKInterfaceLabel!
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
         // Configure interface objects here.
+        
     }
     
     override func willActivate() {
@@ -26,6 +33,11 @@ class InterfaceController: WKInterfaceController {
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
+    }
+    
+    @IBAction func GenerateButtonPressed() {
+        AdjectiveLabel.setText(TitleDictionary.adjectives[Int(arc4random_uniform(UInt32(TitleDictionary.adjectives.count)))])
+        NounLabel.setText(TitleDictionary.nouns[Int(arc4random_uniform(UInt32(TitleDictionary.nouns.count)))])
     }
 
 }

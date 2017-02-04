@@ -19,6 +19,7 @@
 		7C2965941E45B2DC00ADBB8D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2965931E45B2DC00ADBB8D /* InterfaceController.swift */; };
 		7C2965961E45B2DC00ADBB8D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2965951E45B2DC00ADBB8D /* ExtensionDelegate.swift */; };
 		7C2965981E45B2DC00ADBB8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C2965971E45B2DC00ADBB8D /* Assets.xcassets */; };
+		7C2965AB1E45B8EC00ADBB8D /* TitleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2965AA1E45B8EC00ADBB8D /* TitleDictionary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		7C2965951E45B2DC00ADBB8D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		7C2965971E45B2DC00ADBB8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C2965991E45B2DC00ADBB8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C2965AA1E45B8EC00ADBB8D /* TitleDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleDictionary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		7C2965831E45B2DC00ADBB8D /* Song Title Generator WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				7C2965A71E45B8AA00ADBB8D /* Resources */,
 				7C2965841E45B2DC00ADBB8D /* Interface.storyboard */,
 				7C2965871E45B2DC00ADBB8D /* Assets.xcassets */,
 				7C2965891E45B2DC00ADBB8D /* Info.plist */,
@@ -152,6 +155,14 @@
 				7C2965991E45B2DC00ADBB8D /* Info.plist */,
 			);
 			path = "Song Title Generator WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7C2965A71E45B8AA00ADBB8D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7C2965AA1E45B8EC00ADBB8D /* TitleDictionary.swift */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +314,7 @@
 			files = (
 				7C2965961E45B2DC00ADBB8D /* ExtensionDelegate.swift in Sources */,
 				7C2965941E45B2DC00ADBB8D /* InterfaceController.swift in Sources */,
+				7C2965AB1E45B8EC00ADBB8D /* TitleDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
