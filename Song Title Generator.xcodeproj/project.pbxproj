@@ -79,8 +79,8 @@
 		7C29658E1E45B2DC00ADBB8D /* Song Title Generator WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Song Title Generator WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C2965931E45B2DC00ADBB8D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		7C2965951E45B2DC00ADBB8D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		7C2965971E45B2DC00ADBB8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../Song Title Generator WatchKit Extension/Assets.xcassets"; sourceTree = "<group>"; };
-		7C2965991E45B2DC00ADBB8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Song Title Generator WatchKit Extension/Info.plist"; sourceTree = "<group>"; };
+		7C2965971E45B2DC00ADBB8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C2965991E45B2DC00ADBB8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Info.plist; sourceTree = "<group>"; };
 		7C2965AA1E45B8EC00ADBB8D /* TitleDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleDictionary.swift; sourceTree = "<group>"; };
 		7C2965B41E45C38800ADBB8D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7C2965B71E45C50200ADBB8D /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
@@ -107,12 +107,12 @@
 		7C2965641E45B2DB00ADBB8D = {
 			isa = PBXGroup;
 			children = (
-				7C2965B41E45C38800ADBB8D /* README.md */,
-				7C2965B71E45C50200ADBB8D /* COPYING */,
+				7C29656E1E45B2DB00ADBB8D /* Products */,
 				7C29656F1E45B2DB00ADBB8D /* Song Title Generator */,
 				7C2965831E45B2DC00ADBB8D /* Song Title Generator WatchKit App */,
 				7C2965921E45B2DC00ADBB8D /* Song Title Generator WatchKit Extension */,
-				7C29656E1E45B2DB00ADBB8D /* Products */,
+				7C2965B71E45C50200ADBB8D /* COPYING */,
+				7C2965B41E45C38800ADBB8D /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,10 +129,10 @@
 		7C29656F1E45B2DB00ADBB8D /* Song Title Generator */ = {
 			isa = PBXGroup;
 			children = (
-				7C2965B11E45BE4000ADBB8D /* Resources */,
-				7C2965B01E45BE3700ADBB8D /* Storyboards */,
 				7C2965AF1E45BE2800ADBB8D /* Controllers */,
 				7C2965AE1E45BE2300ADBB8D /* Delegates */,
+				7C2965B11E45BE4000ADBB8D /* Resources */,
+				7C2965B01E45BE3700ADBB8D /* Storyboards */,
 			);
 			path = "Song Title Generator";
 			sourceTree = "<group>";
@@ -149,8 +149,8 @@
 		7C2965921E45B2DC00ADBB8D /* Song Title Generator WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				7C2965AD1E45BDE900ADBB8D /* Delegates */,
 				7C2965AC1E45BDDE00ADBB8D /* Controllers */,
+				7C2965AD1E45BDE900ADBB8D /* Delegates */,
 				7C2965A71E45B8AA00ADBB8D /* Resources */,
 			);
 			path = "Song Title Generator WatchKit Extension";
@@ -159,12 +159,12 @@
 		7C2965A71E45B8AA00ADBB8D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7C2965991E45B2DC00ADBB8D /* Info.plist */,
 				7C2965971E45B2DC00ADBB8D /* Assets.xcassets */,
+				7C2965991E45B2DC00ADBB8D /* Info.plist */,
 				7C2965AA1E45B8EC00ADBB8D /* TitleDictionary.swift */,
 			);
 			name = Resources;
-			path = "../Song Title Generator WatchKit App";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		7C2965AC1E45BDDE00ADBB8D /* Controllers */ = {
@@ -173,6 +173,7 @@
 				7C2965931E45B2DC00ADBB8D /* InterfaceController.swift */,
 			);
 			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		7C2965AD1E45BDE900ADBB8D /* Delegates */ = {
@@ -181,6 +182,7 @@
 				7C2965951E45B2DC00ADBB8D /* ExtensionDelegate.swift */,
 			);
 			name = Delegates;
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 		7C2965AE1E45BE2300ADBB8D /* Delegates */ = {
@@ -189,6 +191,7 @@
 				7C2965701E45B2DB00ADBB8D /* AppDelegate.swift */,
 			);
 			name = Delegates;
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 		7C2965AF1E45BE2800ADBB8D /* Controllers */ = {
@@ -197,24 +200,27 @@
 				7C2965721E45B2DB00ADBB8D /* ViewController.swift */,
 			);
 			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		7C2965B01E45BE3700ADBB8D /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				7C2965741E45B2DB00ADBB8D /* Main.storyboard */,
 				7C2965791E45B2DB00ADBB8D /* LaunchScreen.storyboard */,
+				7C2965741E45B2DB00ADBB8D /* Main.storyboard */,
 			);
 			name = Storyboards;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		7C2965B11E45BE4000ADBB8D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7C29657C1E45B2DC00ADBB8D /* Info.plist */,
 				7C2965771E45B2DB00ADBB8D /* Assets.xcassets */,
+				7C29657C1E45B2DC00ADBB8D /* Info.plist */,
 			);
 			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		7C2965B21E45BE4F00ADBB8D /* Storyboards */ = {
@@ -223,15 +229,17 @@
 				7C2965841E45B2DC00ADBB8D /* Interface.storyboard */,
 			);
 			name = Storyboards;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		7C2965B31E45BE5600ADBB8D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7C2965891E45B2DC00ADBB8D /* Info.plist */,
 				7C2965871E45B2DC00ADBB8D /* Assets.xcassets */,
+				7C2965891E45B2DC00ADBB8D /* Info.plist */,
 			);
 			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,6 +414,7 @@
 				7C2965751E45B2DB00ADBB8D /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		7C2965791E45B2DB00ADBB8D /* LaunchScreen.storyboard */ = {
@@ -414,6 +423,7 @@
 				7C29657A1E45B2DB00ADBB8D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		7C2965841E45B2DC00ADBB8D /* Interface.storyboard */ = {
@@ -422,6 +432,7 @@
 				7C2965851E45B2DC00ADBB8D /* Base */,
 			);
 			name = Interface.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -561,7 +572,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = Song_Title_Generator_WatchKit_Extension;
-				INFOPLIST_FILE = "Song Title Generator WatchKit App/Info.plist";
+				INFOPLIST_FILE = "Song Title Generator WatchKit App/Resources/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HunterStanton.Song-Title-Generator.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -579,7 +590,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
 				IBSC_MODULE = Song_Title_Generator_WatchKit_Extension;
-				INFOPLIST_FILE = "Song Title Generator WatchKit App/Info.plist";
+				INFOPLIST_FILE = "Song Title Generator WatchKit App/Resources/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HunterStanton.Song-Title-Generator.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -595,7 +606,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Song Title Generator/Info.plist";
+				INFOPLIST_FILE = "Song Title Generator/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HunterStanton.Song-Title-Generator";
@@ -609,7 +620,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "Song Title Generator/Info.plist";
+				INFOPLIST_FILE = "Song Title Generator/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HunterStanton.Song-Title-Generator";
